@@ -1,10 +1,8 @@
 
-UNAME := $(shell uname)
-
 ifeq ($(OS),Windows_NT)
-	DELETE := del /Q /S *.o *.exe
+	DELETE := del /Q /S *.o *.obj *.exe
 else
-	DELETE := rm -rf *.o *.ch
+	DELETE := rm -rf *.o *.h *.ch
 endif
 
 

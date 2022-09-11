@@ -11,3 +11,4 @@ hello_world: hello_world.c
 
 clean:
 	${DELETE} *.exe *.o hello_world
+	

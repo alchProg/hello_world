@@ -1,8 +1,8 @@
 
 ifeq ($(OS),Windows_NT)
-	DELETE := del /Q /S *.o *.obj *.exe
+	DELETE := del /Q /S
 else
-	DELETE := rm -rf *.o *.h *.ch
+	DELETE := rm -rf
 endif
 
 
